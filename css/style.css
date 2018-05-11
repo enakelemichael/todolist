@@ -4,11 +4,12 @@
   
   body {
     font-family: sans-serif;
-    text-align: center;
+    display: block;
     padding: 40px;
     background-color: black;
     font-size: 18pt;
     color: white;
+
   }
   
   ul li {
@@ -34,7 +35,8 @@
   .text {
     display: inline-block;
     vertical-align: top;
-    color: #444;
+    color: white;
+    padding: 10px;
   }
   
   .strike-through {
